@@ -1,0 +1,38 @@
+# Cloud-Based Monitoring and Control System
+
+## Overview
+This project demonstrates an IoT-based system for real-time environmental monitoring and control, integrating multiple sensors with microcontrollers and cloud services.
+
+## Features
+- **Sensors:** Measures temperature, humidity, water levels, light intensity, and distance.
+- **Hardware:** Combines Arduino Uno for data acquisition and Raspberry Pi for data processing and cloud communication.
+- **Software:** Python programming, MQTT, and HTTP protocols for seamless data transfer and control.
+- **Cloud Integration:** Utilized ThingsBoard for visualization, remote control, and alert notifications.
+
+## Components
+- **Hardware:**
+  - Arduino Uno
+  - Raspberry Pi
+  - DHT11 (Temperature and Humidity Sensor)
+  - Ultrasonic Distance Sensor
+  - Light Sensor
+  - Water Level Sensor
+- **Software:**
+  - Python scripts for data handling and control
+  - ThingsBoard platform for cloud integration
+  - MQTT and HTTP for data transfer protocols
+
+## How to Use
+1. Clone this repository.
+2. Connect the hardware as specified in the [wiring diagram](path-to-diagram).
+3. Install dependencies using `pip install -r requirements.txt`.
+4. Run `main.py` to start the system.
+5. Monitor data and control devices through the ThingsBoard dashboard.
+
+## Results
+- Real-time monitoring and alerts.
+- Remote control via web and mobile interfaces.
+- Scalable and adaptable to various use cases.
+
+## License
+MIT License
